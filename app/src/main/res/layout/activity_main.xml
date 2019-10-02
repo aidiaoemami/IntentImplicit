@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/vertical"
+    android:paddingLeft="@dimen/horizontal"
+    android:paddingRight="@dimen/horizontal"
+    android:paddingTop="@dimen/vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontak Hp"
+        android:id="@+id/btn_kontakHp"
+        android:layout_marginBottom="@dimen/vertical"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browser"
+        android:id="@+id/btn_browser"
+        android:layout_marginBottom="@dimen/vertical"
+        />
+</LinearLayout>
